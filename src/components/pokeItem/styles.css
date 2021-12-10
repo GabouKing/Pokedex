@@ -1,0 +1,53 @@
+
+.PokeItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;       
+    margin-top: 5px;
+    box-shadow: 5px 5px 5px 5px black;
+
+}
+.screenFrame{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #96989a;
+    height: 175px;
+    width: 225px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px black;
+}
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 190px;
+    background-color: #acddfe;
+
+}
+.pokeImg{
+    height: 50%;
+    width: 50%;
+}
+
+.pokeInfoField{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    height: 100%;
+    
+    justify-content: center;
+    padding-top: 2px;
+}
+.pokeInfo{
+    background-color:#96989a77 ;
+    margin-top: 5px;
+    color: white;
+    text-align: left;
+    
+}

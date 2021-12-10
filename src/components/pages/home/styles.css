@@ -1,0 +1,54 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.Home-pokeList{
+    display: flex;
+    flex-direction: column;
+    height: 890px;
+    align-items: center;
+    justify-content: center;
+    font-family:  'Times New Roman', Times, serif;
+    
+    background-color: #ca5452;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #c33d3f;
+
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 4px 10px;
+    
+   
+}
+.homeButton{
+    height: 50px;
+    width: 50px;
+    
+}
+.homeButton:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.pokeFilter{
+    width: 50%;
+    height: 50%;
+    margin-right: 25%;
+}
+.LoadingField{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    justify-content: center;
+    align-items: center;
+}
+.LoadingImg{
+    height: 175px;
+    width: 175px;
+}

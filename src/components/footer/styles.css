@@ -1,0 +1,11 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+    
+    background-color: #ca5452;
+}
